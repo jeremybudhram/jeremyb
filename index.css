@@ -1,0 +1,223 @@
+@import url(http://fonts.googleapis.com/css?family=Kavoon);
+@import url(http://fonts.googleapis.com/css?family=Titillium+Web:400,700);
+
+body {
+	background-color: #41322b;
+	color: #ffffff;
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 16px;
+}
+
+.page-center {
+	max-width: 650px;
+	float: none;
+	margin: 0 auto;
+	padding: 0 30px;
+}
+
+.header {
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+.header h1 {
+	margin-bottom: 5px;
+}
+
+.header span {
+	color: #BF4B1A;
+	border-bottom: 1px solid #F6CA05;
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: 700;
+	font-size: 18px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	padding: 0 35px;
+	text-shadow: 1px 1px #000000;
+}
+
+.header-banner img {
+	margin-top: 20px;
+	padding: 10px;
+}
+
+.header-nav {
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: 400;
+}
+
+.header-nav ul {
+	list-style: none;
+	text-align: center;
+	padding: 0;
+}
+
+.header-nav ul li {
+	display: inline;
+}
+
+.header-nav ul li a {
+	display: inline-block;
+	width: 25%;
+	color: #F6CA05;
+	border: 1px solid #F6CA05;
+	border-radius: 32px;
+	font-size: 20px;
+	text-transform: uppercase;
+	text-decoration: none;
+	letter-spacing: 2px;
+	margin: 0 5px;
+	padding: 5px;
+}
+
+.header-nav ul li a.link-active {
+	background-color: #BF4B1A;
+	color: #F6CA05;
+	border: 1px solid #BF4B1A;
+}
+
+.header-nav ul li a.link-inactive:hover {
+	background-color: #53349C;
+	color: #ffffff;
+	border: 1px solid #53349C;
+}
+
+.content {
+	padding-bottom:	20px;
+}
+
+.content span.emphasis-name {
+	color: #F6CA05;
+	font-size: 1.5em;
+	margin-right: 5px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: #F6CA05;
+	font-family: 'Kavoon', sans-serif;
+}
+
+h1 {
+	font-size: 42px;
+	letter-spacing: 10px;
+	text-shadow: 2px 2px #000000;
+	margin: 15px 0;
+}
+
+p {
+	text-align: justify;
+	line-height: 1.5em;
+}
+
+.content p.read-more {
+	text-align: center;
+	font-size: 1.5em;
+	line-height: 1em;
+	margin: 50px 0 0 0;
+}
+
+.content p.read-more a {
+	display: block;
+	color: #F6CA05;
+	border-top: 1px solid #F6CA05;
+	border-bottom: 1px solid #F6CA05;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	padding: 15px;
+}
+
+.content p.read-more a:hover {
+	background-color: #53349C;
+	color: #ffffff;
+	border: 1px solid #53349C;
+	border-radius: 10px;
+}
+
+.footer {
+	padding-bottom: 30px;
+}
+
+.footer .social ul {
+	text-align: center;
+	list-style: none;
+	padding: 0;
+}
+
+.footer .social ul li {
+	display: inline;
+}
+
+.footer .social ul li a {
+	display: inline-block;
+	background-color: #20A499;
+	color: #41322b;
+	width: 17.5%;
+	border: 1px solid #20A499;
+	border-radius: 10px;
+	font-weight: 700;
+	text-transform: uppercase;
+	text-decoration: none;
+	letter-spacing: 1px;
+	margin: 0 5px;
+	padding: 5px;
+
+}
+
+.footer .social ul li a:hover {
+	background-color: #41322b;
+	color: #ffffff;
+	border: 1px solid #ffffff;
+	font-weight: 400;
+}
+
+/********** Resume Styles **********/
+
+h2 {
+	font-size: 22px;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	text-shadow: 1px 1px #000000;
+	margin: 15px 0;
+}
+
+h2#ed {
+	margin-top: 30px;
+}
+
+li.spacer {
+	margin-bottom: 20px;
+}
+
+.content ul {
+	list-style: none;
+	padding: 0;
+}
+
+span.date {
+	display: inline-block;
+	font-size: 0.9em;
+	color: #BF4B1A;
+	line-height: 1.5em;
+	margin-left: 3px;
+}
+
+span.description {
+	color: #bbbbbb;
+	font-size: 0.9em;
+	line-height: 1.5em;
+}
+
+ul.education li {
+	margin-bottom: 5px;
+}
+
+span.ed-year {
+	display: inline-block;
+	color: #BF4B1A;
+	font-size: 0.9em;
+	margin-left: 3px;
+}
+
